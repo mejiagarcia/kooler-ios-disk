@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
     s.homepage = "https://github.com/mejiagarcia/kooler-ios-disk"
     s.source = { :git => "https://github.com/mejiagarcia/kooler-ios-disk.git", :tag => "#{s.version}", branch: "master"}
     s.source_files = "Disk/Source/**/*.{swift}"
-    s.resources = "Disk/Source/**/*.{json,png,jpeg,jpg,storyboard,xib,xcassets}"
+    #s.resources = "Disk/Source/**/*.{json,png,jpeg,jpg,storyboard,xib,xcassets}"
   end
